@@ -12,7 +12,6 @@ def yaml_to_dict(yaml_file):
 
 def render(inst_message,to_render):
     rendered = to_render.replace("{mention}",inst_message.author.mention)
-
     return rendered
 
 # Example usage:
