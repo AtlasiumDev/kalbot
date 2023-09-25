@@ -1,0 +1,4 @@
+venv
+bot_config.py
+*.log
+*.pyc
