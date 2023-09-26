@@ -19,10 +19,24 @@ def handle_response(inst_message) -> str:
     if random.randint(0,100)==42:
         logger.warning(f"Sbit {inst_message.author}")
         return f"9awd 3lia tl3tili f kerri a {inst_message.author.mention}"
+    if random.randint(0,100)==1:
+        logger.warning(f"I loved {inst_message.author}")
+        return f"I love you a {inst_message.author.mention}"
+    
     yaml_file = 'responses.yml' 
     data = yaml_to_dict(yaml_file)
     message = str(inst_message.content)
     p_message = message.lower()
+
+    # random case
+    if p_message.find("random")>-1:
+        length = len(list(data["find"].keys())) 
+        key = list(data["find"].keys())[random.randint(0,length-1)]
+        found = data["find"][key][0]
+        rendered = render(inst_message,found) 
+        return rendered 
+    
+    # search in responses
     for find_prompt in data["find"]:
         if p_message.find(find_prompt)>-1:
             found = data["find"][find_prompt]

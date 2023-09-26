@@ -32,9 +32,10 @@ def run_discord_bot():
         logger.info(f"{username} said {user_message} in {channel}")
 
         lower_message = user_message.lower()
-        if user_message[0]==bot_config.trigger_char:
-            user_message = user_message[len(bot_config.trigger_char):]
-            # Special commands code goes here
+        # if user_message[0]==bot_config.trigger_char:
+        #     user_message = user_message[len(bot_config.trigger_char):]
+        # Special commands code goes here
+
         # Check responses and reply
         await send_message(message,user_message,False)
         
