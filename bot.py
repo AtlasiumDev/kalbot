@@ -47,9 +47,11 @@ def run_discord_bot():
                 command = command_str.split(" ")
                 if command[0] == "add":
                     data = yaml_to_dict(bot_config.responses_yml)
-                    if len(command)==3:
+                    if len(command)>2 and len(command[1])>3:
                         prompt = command[1]
-                        value = command[2]
+                        value = ""
+                        for word in command[2:]:  
+                            value += word + " " 
                         with open(bot_config.responses_yml,"w",encoding="utf-8") as file:
                             data["find"] = add_or_create(data["find"],prompt,value)
                             yaml.dump(data,file)

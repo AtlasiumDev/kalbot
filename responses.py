@@ -40,7 +40,7 @@ def handle_response(inst_message) -> str:
     
     # search in responses
     for find_prompt in data["find"]:
-        if p_message.find(find_prompt)>-1:
+        if p_message == find_prompt:
             found = data["find"][find_prompt]
             index = random.randint(0,len(found)-1)
             rendered = render(inst_message,found[index]) 
