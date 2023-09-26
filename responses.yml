@@ -1,154 +1,160 @@
-version : 1.0.0
 find:
-  hassan:
-    - https://histoiresroyales.fr/wp-content/uploads/2023/01/jane-benzaquen-fille-illegitime-roi-hassan-ii-justice-belge-1200x900.jpg
-    - https://www.gala.fr/imgre/fit/~1~gal~2023~01~20~8112177a-bb3a-4f69-8dad-7b2d40de5b28.jpeg/767x586/quality/80/hassan-ii-du-maroc.jpeg
-    - https://media.gettyimages.com/id/103937178/fr/photo/king-hassan-ii-of-morocco-former-prince-moulay-hassan-smiles-26-february-1961-in-the-hall-of.jpg?s=612x612&w=gi&k=20&c=FGHF4iQ2dxn-bAZCTP4sOc07UtI88YzmF2KLSf88VoI=
-    - https://static.yabiladi.com/files/articles/512c4342768afd665dfdc95f39630819_thumb_565.jpg
-    - https://www.arabnews.fr/sites/default/files/styles/670x376_watermark_logo/public/2021-11/2fd6648a6a802ccd3435edc52dacf454.jpeg?itok=wQie1-sK
-    - https://cloudfront-eu-central-1.images.arcpublishing.com/le360/OSVNXSHW7FEDJF3UZUKH3WYBR4.jpg
-    - https://discoverymorocco.net/wp-content/uploads/2018/08/Driss-Basri-1.jpg
-    - https://i.ebayimg.com/images/g/5rQAAOSwErpjDf40/s-l1600.jpg
-  top:
-    - ادا دعمت من الخلف فإعلم أنك في المقدمة 
-    - انت هي البلقة لي كتهزو فالزنقة؟
-    - https://cdn.discordapp.com/attachments/1145705673372467263/1155920304103763999/D5F33215-83DE-4B95-893D-D9D547300D8F.jpg
-  bipolar:
-    - https://tenor.com/view/2faced-bipolar-scary-face-creepy-gif-15682974
-  mambo:
-    - https://tenor.com/view/dancing-dance-moves-grooves-naked-gif-16930999
-  dhak:
-    - https://cdn.discordapp.com/attachments/1155321590259662914/1155849378418921543/xasd.png
-  akhbar:
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155824884077826108/image.png
-  benbarka:
-    - Ana kan7wi 4 swaye3 continue !
-    - https://scontent-mrs2-1.xx.fbcdn.net/v/t39.30808-6/381697281_342008568195384_374210165424597448_n.jpg?stp=dst-jpg_p526x296&_nc_cat=1&ccb=1-7&_nc_sid=49d041&_nc_ohc=MLXsT_nDe24AX8nDL_K&_nc_oc=AQmARlBdxLyb34q_yyfu31-uqxhD-9La_4eS-9NhjQ02RJx2gfshJGsa-QSOK5YWZU4&_nc_ht=scontent-mrs2-1.xx&oh=00_AfDXywXBFrMq01z2jJddjDKabpYEuLtzJ5g5wnl1A2gyHQ&oe=651630BA
-    - https://www.youtube.com/watch?v=Pt3SRlqozAc
-    - https://tenor.com/view/haha-funny-lol-laughing-out-loud-giggle-gif-15515505
-    - https://tenor.com/view/ziyech-atlas-lions-morocco-gif-2317206676074426849
-    - https://tenor.com/view/maroc-morocco-phone-call-awkward-smile-smile-gif-16131084
-  chaos:
-    - thalla f l9assira
-  hello:
-    - Ghan Tan Tan 7abbek!
-  bot:
-    - 'Chno a {mention} !'
-  fin:
-    - FKRK a {mention}
-  chkon:
-    - Li 7wak a {mention} !
-  chkoun:
-    - Li 7wak a {mention} !
-  shkon:
-    - Li 7wak a {mention} !
-  shkoun:
-    - Li 7wak a {mention} !
-  chkon:
-    - Li 7wak a {mention} !
-  ta9a:
-    - https://cdn.discordapp.com/attachments/1145170852325904494/1156189332244287558/mekkitourabinew_219491552.jpg?ex=651410b9&is=6512bf39&hm=0eb91e9c2caae23b3c7973c4fbdda8da1d9a5dcab70bd1f66a6d8d8621133cd9&
-  nadia:
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155953945139752990/B2CB5FD9-04F8-4663-81B3-481F95CF25F3.jpg
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155825271090458634/FB_IMG_1695569321739.jpg
-    - 3ndi pesto f Zayan
-    - Nassi naaaas, لمريخ . wnawrofiii
-    - "3tiwni l'adminité !"
-  arcadius:
-    - والله تندير ربك فقفص ونوكلك السيكاليم
-    - https://cdn.discordapp.com/attachments/1145170852325904494/1156188895294275605/f6cfb0af-f6df-4b39-bc40-6da81bfab279.jpg?ex=65141051&is=6512bed1&hm=46e2488a4b48c7dc87dcec4f38d50cd4f6f3b38883c0211413f66c69a09f0319&
-    - https://tenor.com/view/admin-duta-gif-19268009
-    - "Mal zaml bok ela had ljamal kaml"
-  l3anoud:
-    - https://tenor.com/view/ziyech-atlas-lions-morocco-gif-2317206676074426849
-    - https://tenor.com/view/alia-bhatt-wink-bollywood-actress-alia-bhatt-wink-bollywood-actress-wink-gif-25686523
-    - "<@929292902847381504> N3tik 3am twli zwimilo !"
-    - Lah yn3al tboun mok a Kalash
-    - Ghadi nji nserfeg mok
-    - https://tenor.com/view/cats-gif-24695538
-  sphinx:
-    - Kayjiw 3ndi satat msa7bat, okaygolo ls7abhom baytin 3nd sahbti, bach nt7waw tranquil
-    - "Ghadi ndirlk Grimilo f trmtk !"
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155820497032974447/images_11.jpg
-  sarita:
-    - "Lah yn3al tabon mok a kalash !"
-  sahraoui:
-    - "To eliminate the inevitability of war, it is necessary to abolish imperialism."
-  jona7:
-    - "LKHENCHA 🤣"
-  tqnine:
-    - "Jibo lia Evangeline"
-    - https://cdn.discordapp.com/attachments/1155321590259662914/1156002062010691584/image.png?ex=65136251&is=651210d1&hm=ba9ab81385e606ab57036eb235caaaa112c2597627f0a031016c8c6f76f4247b&
-  denjal:
-    - "Jm3o 3lina slipatkome !"
-    - نسي ناس  وناخ  حويتي زمان
-  olymp:
-    - "Nadia be3di li mn kerri 🥺💔!"
-  amin:
-    - "Glückwunsch !"
   3acha:
-    - "3acha cha3b, wala 3acha man khano !"
-  marylin:
-    - "La hadi makan3rfhach !"
-  espatchiya:
-    - "L7ayat Zwina ✨️❤️"
-    - "Rani mfrooo3a 💔 !"
-  yahya:
-    - "ach dok l3inin al9lawi !"
-  okra:
-    - "Yak a l9wiwid ?"
-  sam:
-    - "Rah ana li ghadi n banner rabbek ?"
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155821222689517628/image0.jpg
-  milfaya:
-    - https://cdn.discordapp.com/attachments/1145170852325904494/1156187863814258838/ec875395-2e3d-40a6-9e6c-7bb33528cb47.png?ex=65140f5b&is=6512bddb&hm=d99650178ecbfefcd33746b2a43c1d93aa566bf214c3ba0111dd7daa8ea3a722&
-    - https://cdn.discordapp.com/attachments/1145170852325904494/1156187709140897792/a9ce51ab-13c3-4056-9057-869f993aa164.png?ex=65140f36&is=6512bdb6&hm=cda293c93dfad16e554323587b896203a13336976ccca38b686536a83c895541&
-    - https://cdn.discordapp.com/attachments/1145170852325904494/1155872386818789376/IMG-20230925-WA0022.jpg
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155827318544150588/97e3e041-c420-4bcd-bc5f-6ee4b2aa0470.png
-    - Lkwa kantkwaw hmd ghir ti3jbni nhdr fih
-    - "https://tenor.com/view/marajtwt-azealia-banks-evil-smile-gif-26280906"
-  deborah:
-    - "W7da jit nslem 3liha o hia t9is lia bzazli"
-  var:
-    - https://tenor.com/view/ziekenhuisbal-dennis-higler-var-scheidsrechter-gif-15224814
-
-  kalash:
-    - "Rani 9ajjo !"
-    - Oll dfakin Yonivers ! why ? https://tenor.com/view/why-just-why-but-why-monkey-gif-12154841822175871566
-  hh+:
-    - 'Hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh'
-  pause:
-    - Yeah!, Ma 3endich tanga f dehbi, ma 3еndich malinois f jenbi
-    - Maa 3endich DST f derbi, mеzyoud f 7ouma kolha katserbi
-    - Ma 3endich khoutta 3ayech 7ibbi, b cartable beztam l'badag d'CP
-    - Ya lkhilafa ghi fine kattebbi, la fortune li hadi snine kat7elbi
-    - L'hrawa katsayen tlebbi solta rab3a chahda w tkhebbi
-    - 7ebsi ya lwalda ma tkobbi w tsifti l niyaba l3amma trebbi
-    - Ma 9asni la cher9i la gherbi, 9asni Rouicha w Mbarek Laarbi
-    - B Rebbi li ma kteb chi m3ani cha3la la 9asni b dok toplinat zebbi
-    - 3acha rap wala 3acha man khano
-  hahwa:
-    - https://tenor.com/view/sari-cool-hahuwa-middle-finger-dance-gif-13038886
-  nemli:
-    - Khawer arcadius f 50€ !
-  open:
-    - chi compte OpenVPN a roti ?
-  saikik:
-    - <@395003840086278145> aji tnkhem liya fog zbi 
-    - Jib lia bak n7wih
+  - 3acha cha3b, wala 3acha man khano !
   9ahba:
-    - https://www.youtube.com/watch?v=onko4W2Q1UA
-  mongol:
-    - https://www.youtube.com/watch?v=RVzRwWVl9FU
-  crazy:
-    - https://www.youtube.com/watch?v=YOw5L70iJ3I
-  reda:
-    - 3tit lwahd sahbi tendeuse f l'anniv o ndmt 3liha !
+  - https://www.youtube.com/watch?v=onko4W2Q1UA
+  akhbar:
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155824884077826108/image.png
+  amin:
+  - "Gl\xFCckwunsch !"
+  arcadius:
+  - "\u0648\u0627\u0644\u0644\u0647 \u062A\u0646\u062F\u064A\u0631 \u0631\u0628\u0643\
+    \ \u0641\u0642\u0641\u0635 \u0648\u0646\u0648\u0643\u0644\u0643 \u0627\u0644\u0633\
+    \u064A\u0643\u0627\u0644\u064A\u0645"
+  - https://cdn.discordapp.com/attachments/1145170852325904494/1156188895294275605/f6cfb0af-f6df-4b39-bc40-6da81bfab279.jpg?ex=65141051&is=6512bed1&hm=46e2488a4b48c7dc87dcec4f38d50cd4f6f3b38883c0211413f66c69a09f0319&
+  - https://tenor.com/view/admin-duta-gif-19268009
+  - Mal zaml bok ela had ljamal kaml
+  benbarka:
+  - Ana kan7wi 4 swaye3 continue !
+  - https://scontent-mrs2-1.xx.fbcdn.net/v/t39.30808-6/381697281_342008568195384_374210165424597448_n.jpg?stp=dst-jpg_p526x296&_nc_cat=1&ccb=1-7&_nc_sid=49d041&_nc_ohc=MLXsT_nDe24AX8nDL_K&_nc_oc=AQmARlBdxLyb34q_yyfu31-uqxhD-9La_4eS-9NhjQ02RJx2gfshJGsa-QSOK5YWZU4&_nc_ht=scontent-mrs2-1.xx&oh=00_AfDXywXBFrMq01z2jJddjDKabpYEuLtzJ5g5wnl1A2gyHQ&oe=651630BA
+  - https://www.youtube.com/watch?v=Pt3SRlqozAc
+  - https://tenor.com/view/haha-funny-lol-laughing-out-loud-giggle-gif-15515505
+  - https://tenor.com/view/ziyech-atlas-lions-morocco-gif-2317206676074426849
+  - https://tenor.com/view/maroc-morocco-phone-call-awkward-smile-smile-gif-16131084
+  bipolar:
+  - https://tenor.com/view/2faced-bipolar-scary-face-creepy-gif-15682974
   bnadm:
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155823495461208114/360_F_555008968_f7sbaBYEqvb0z11v5fMBWkhUptxJx5tM.jpg
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155823495461208114/360_F_555008968_f7sbaBYEqvb0z11v5fMBWkhUptxJx5tM.jpg
+  bot:
+  - Chno a {mention} !
   busni:
-    - https://cdn.discordapp.com/attachments/1145155246243446954/1155822607376076841/353678474_10210556553667399_3122988053438865361_n.png
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155822607376076841/353678474_10210556553667399_3122988053438865361_n.png
+  chaos:
+  - thalla f l9assira
+  chkon:
+  - Li 7wak a {mention} !
+  chkoun:
+  - Li 7wak a {mention} !
+  crazy:
+  - https://www.youtube.com/watch?v=YOw5L70iJ3I
+  deborah:
+  - W7da jit nslem 3liha o hia t9is lia bzazli
+  denjal:
+  - Jm3o 3lina slipatkome !
+  - "\u0646\u0633\u064A \u0646\u0627\u0633  \u0648\u0646\u0627\u062E  \u062D\u0648\
+    \u064A\u062A\u064A \u0632\u0645\u0627\u0646"
+  dhak:
+  - https://cdn.discordapp.com/attachments/1155321590259662914/1155849378418921543/xasd.png
+  espatchiya:
+  - "L7ayat Zwina \u2728\uFE0F\u2764\uFE0F"
+  - "Rani mfrooo3a \U0001F494 !"
+  fin:
+  - FKRK a {mention}
+  hahwa:
+  - https://tenor.com/view/sari-cool-hahuwa-middle-finger-dance-gif-13038886
+  hassan:
+  - https://histoiresroyales.fr/wp-content/uploads/2023/01/jane-benzaquen-fille-illegitime-roi-hassan-ii-justice-belge-1200x900.jpg
+  - https://www.gala.fr/imgre/fit/~1~gal~2023~01~20~8112177a-bb3a-4f69-8dad-7b2d40de5b28.jpeg/767x586/quality/80/hassan-ii-du-maroc.jpeg
+  - https://media.gettyimages.com/id/103937178/fr/photo/king-hassan-ii-of-morocco-former-prince-moulay-hassan-smiles-26-february-1961-in-the-hall-of.jpg?s=612x612&w=gi&k=20&c=FGHF4iQ2dxn-bAZCTP4sOc07UtI88YzmF2KLSf88VoI=
+  - https://static.yabiladi.com/files/articles/512c4342768afd665dfdc95f39630819_thumb_565.jpg
+  - https://www.arabnews.fr/sites/default/files/styles/670x376_watermark_logo/public/2021-11/2fd6648a6a802ccd3435edc52dacf454.jpeg?itok=wQie1-sK
+  - https://cloudfront-eu-central-1.images.arcpublishing.com/le360/OSVNXSHW7FEDJF3UZUKH3WYBR4.jpg
+  - https://discoverymorocco.net/wp-content/uploads/2018/08/Driss-Basri-1.jpg
+  - https://i.ebayimg.com/images/g/5rQAAOSwErpjDf40/s-l1600.jpg
+  hello:
+  - Ghan Tan Tan 7abbek!
+  hh+:
+  - Hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh
+  jona7:
+  - "LKHENCHA \U0001F923"
+  kalash:
+  - Rani 9ajjo !
+  - Oll dfakin Yonivers ! why ? https://tenor.com/view/why-just-why-but-why-monkey-gif-12154841822175871566
+  l3anoud:
+  - https://tenor.com/view/ziyech-atlas-lions-morocco-gif-2317206676074426849
+  - https://tenor.com/view/alia-bhatt-wink-bollywood-actress-alia-bhatt-wink-bollywood-actress-wink-gif-25686523
+  - <@929292902847381504> N3tik 3am twli zwimilo !
+  - Lah yn3al tboun mok a Kalash
+  - Ghadi nji nserfeg mok
+  - https://tenor.com/view/cats-gif-24695538
+  mambo:
+  - https://tenor.com/view/dancing-dance-moves-grooves-naked-gif-16930999
+  marylin:
+  - La hadi makan3rfhach !
+  milfaya:
+  - https://cdn.discordapp.com/attachments/1145170852325904494/1156187863814258838/ec875395-2e3d-40a6-9e6c-7bb33528cb47.png?ex=65140f5b&is=6512bddb&hm=d99650178ecbfefcd33746b2a43c1d93aa566bf214c3ba0111dd7daa8ea3a722&
+  - https://cdn.discordapp.com/attachments/1145170852325904494/1156187709140897792/a9ce51ab-13c3-4056-9057-869f993aa164.png?ex=65140f36&is=6512bdb6&hm=cda293c93dfad16e554323587b896203a13336976ccca38b686536a83c895541&
+  - https://cdn.discordapp.com/attachments/1145170852325904494/1155872386818789376/IMG-20230925-WA0022.jpg
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155827318544150588/97e3e041-c420-4bcd-bc5f-6ee4b2aa0470.png
+  - Lkwa kantkwaw hmd ghir ti3jbni nhdr fih
+  - https://tenor.com/view/marajtwt-azealia-banks-evil-smile-gif-26280906
+  mongol:
+  - https://www.youtube.com/watch?v=RVzRwWVl9FU
+  nadia:
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155953945139752990/B2CB5FD9-04F8-4663-81B3-481F95CF25F3.jpg
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155825271090458634/FB_IMG_1695569321739.jpg
+  - 3ndi pesto f Zayan
+  - "Nassi naaaas, \u0644\u0645\u0631\u064A\u062E . wnawrofiii"
+  - "3tiwni l'adminit\xE9 !"
+  nemli:
+  - "Khawer arcadius f 50\u20AC !"
+  okra:
+  - Yak a l9wiwid ?
+  olymp:
+  - "Nadia be3di li mn kerri \U0001F97A\U0001F494!"
+  open:
+  - chi compte OpenVPN a roti ?
+  pause:
+  - "Yeah!, Ma 3endich tanga f dehbi, ma 3\u0435ndich malinois f jenbi"
+  - "Maa 3endich DST f derbi, m\u0435zyoud f 7ouma kolha katserbi"
+  - Ma 3endich khoutta 3ayech 7ibbi, b cartable beztam l'badag d'CP
+  - Ya lkhilafa ghi fine kattebbi, la fortune li hadi snine kat7elbi
+  - L'hrawa katsayen tlebbi solta rab3a chahda w tkhebbi
+  - 7ebsi ya lwalda ma tkobbi w tsifti l niyaba l3amma trebbi
+  - Ma 9asni la cher9i la gherbi, 9asni Rouicha w Mbarek Laarbi
+  - B Rebbi li ma kteb chi m3ani cha3la la 9asni b dok toplinat zebbi
+  - 3acha rap wala 3acha man khano
+  reda:
+  - 3tit lwahd sahbi tendeuse f l'anniv o ndmt 3liha !
+  sahraoui:
+  - To eliminate the inevitability of war, it is necessary to abolish imperialism.
+  saikik:
+  - <@395003840086278145> aji tnkhem liya fog zbi
+  - Jib lia bak n7wih
+  sam:
+  - Rah ana li ghadi n banner rabbek ?
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155821222689517628/image0.jpg
+  sarita:
+  - Lah yn3al tabon mok a kalash !
+  shkon:
+  - Li 7wak a {mention} !
+  shkoun:
+  - Li 7wak a {mention} !
+  sphinx:
+  - Kayjiw 3ndi satat msa7bat, okaygolo ls7abhom baytin 3nd sahbti, bach nt7waw tranquil
+  - Ghadi ndirlk Grimilo f trmtk !
+  - https://cdn.discordapp.com/attachments/1145155246243446954/1155820497032974447/images_11.jpg
+  ta9a:
+  - https://cdn.discordapp.com/attachments/1145170852325904494/1156189332244287558/mekkitourabinew_219491552.jpg?ex=651410b9&is=6512bf39&hm=0eb91e9c2caae23b3c7973c4fbdda8da1d9a5dcab70bd1f66a6d8d8621133cd9&
+  test:
+  - "test\u2764\uFE0F"
+  - testo
+  - testaa
+  top:
+  - "\u0627\u062F\u0627 \u062F\u0639\u0645\u062A \u0645\u0646 \u0627\u0644\u062E\u0644\
+    \u0641 \u0641\u0625\u0639\u0644\u0645 \u0623\u0646\u0643 \u0641\u064A \u0627\u0644\
+    \u0645\u0642\u062F\u0645\u0629"
+  - "\u0627\u0646\u062A \u0647\u064A \u0627\u0644\u0628\u0644\u0642\u0629 \u0644\u064A\
+    \ \u0643\u062A\u0647\u0632\u0648 \u0641\u0627\u0644\u0632\u0646\u0642\u0629\u061F"
+  - https://cdn.discordapp.com/attachments/1145705673372467263/1155920304103763999/D5F33215-83DE-4B95-893D-D9D547300D8F.jpg
+  tqnine:
+  - Jibo lia Evangeline
+  - https://cdn.discordapp.com/attachments/1155321590259662914/1156002062010691584/image.png?ex=65136251&is=651210d1&hm=ba9ab81385e606ab57036eb235caaaa112c2597627f0a031016c8c6f76f4247b&
+  var:
+  - https://tenor.com/view/ziekenhuisbal-dennis-higler-var-scheidsrechter-gif-15224814
   wili:
-    - https://tenor.com/view/ziyech-hakim-ziyech-chelsea-morocco-ziyech-morocco-gif-1726614036941939970
-
-user_condition:
+  - https://tenor.com/view/ziyech-hakim-ziyech-chelsea-morocco-ziyech-morocco-gif-1726614036941939970
+  yahya:
+  - ach dok l3inin al9lawi !
+user_condition: null
+version: 1.0.0

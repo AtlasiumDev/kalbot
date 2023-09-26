@@ -2,11 +2,12 @@ import csv
 import yaml
 import random
 import logging
+import bot_config
 logger = logging.getLogger('discord')
 logging.basicConfig(filename="index.log")
 
 def yaml_to_dict(yaml_file):
-    with open(yaml_file, 'r') as file:
+    with open(yaml_file, 'r',encoding="utf-8") as file:
         yaml_data = yaml.safe_load(file)
     return yaml_data
 
@@ -16,15 +17,16 @@ def render(inst_message,to_render):
 
 # Example usage:
 def handle_response(inst_message) -> str:
+    # Hidden mysteryes
     if random.randint(0,100)==42:
         logger.warning(f"Sbit {inst_message.author}")
         return f"9awd 3lia tl3tili f kerri a {inst_message.author.mention}"
     if random.randint(0,100)==1:
         logger.warning(f"I loved {inst_message.author}")
         return f"I love you a {inst_message.author.mention}"
-    
-    yaml_file = 'responses.yml' 
-    data = yaml_to_dict(yaml_file)
+
+    # Import yml data   
+    data = yaml_to_dict(bot_config.responses_yml)
     message = str(inst_message.content)
     p_message = message.lower()
 
