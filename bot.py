@@ -48,7 +48,7 @@ def run_discord_bot():
                 if command[0] == "add":
                     data = yaml_to_dict(bot_config.responses_yml)
                     if len(command)>2 and len(command[1])>3:
-                        prompt = command[1].lower
+                        prompt = command[1]
                         value = ""
                         for word in command[2:]:  
                             value += word + " " 
