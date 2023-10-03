@@ -17,6 +17,11 @@ def render(inst_message,to_render):
 
 # Example usage:
 def handle_response(inst_message) -> str:
+    # User specific
+    # if str(inst_message.author) == "anood8254":
+    #     logger.warning(f"Sbit {inst_message.author}")
+    #     return f"Lah yn3el tbonmok a {inst_message.author.mention}"
+                
     # Hidden mysteryes
     if random.randint(0,100)==42:
         logger.warning(f"Sbit {inst_message.author}")
@@ -24,7 +29,7 @@ def handle_response(inst_message) -> str:
     if random.randint(0,100)==1:
         logger.warning(f"I loved {inst_message.author}")
         return f"I love you a {inst_message.author.mention}"
-
+    
     # Import yml data   
     data = yaml_to_dict(bot_config.responses_yml)
     message = str(inst_message.content)
