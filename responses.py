@@ -17,10 +17,6 @@ def render(inst_message,to_render):
 
 # Example usage:
 def handle_response(inst_message) -> str:
-    # User specific
-    # if str(inst_message.author) == "anood8254":
-    #     logger.warning(f"Sbit {inst_message.author}")
-    #     return f"Lah yn3el tbonmok a {inst_message.author.mention}"
                 
     # Hidden mysteryes
     if random.randint(0,100)==42:
@@ -30,10 +26,17 @@ def handle_response(inst_message) -> str:
         logger.warning(f"I loved {inst_message.author}")
         return f"I love you a {inst_message.author.mention}"
     
-    # Import yml data   
-    data = yaml_to_dict(bot_config.responses_yml)
     message = str(inst_message.content)
     p_message = message.lower()
+    # Specific orders
+    # hh+ order
+    if p_message[:3] == "hh+" and len(p_message)>3:
+        num = int(p_message.split("+")[1])
+        if num>420 or num == None:
+            num=420
+        return "h"*num
+    # Import yml data   
+    data = yaml_to_dict(bot_config.responses_yml)
 
     # random case
     if p_message.find("random")>-1:
@@ -50,3 +53,9 @@ def handle_response(inst_message) -> str:
             index = random.randint(0,len(found)-1)
             rendered = render(inst_message,found[index]) 
             return rendered
+    
+    # User specific
+    if str(inst_message.author) in bot_config.moulays:
+        if random.randint(0,10)==1:
+            logger.warning(f"ciphermoon_ hdr")
+            return f"Ayih kayna, I7tiramati a moulay {inst_message.author.mention}"
