@@ -3,6 +3,34 @@ import yaml
 import random
 import logging
 import bot_config
+import requests
+
+def get_playingsong(channel="main"):
+    channels = {
+        "main":"1003",
+        "90s":"1005"
+    }
+    headers = {
+        'authority': 'youradio.ma',
+        'accept': '*/*',
+        'accept-language': 'fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7,de;q=0.6,ar;q=0.5',
+        'origin': 'https://uradio.ma',
+        'referer': 'https://uradio.ma/',
+        'sec-ch-ua': '"Chromium";v="118", "Google Chrome";v="118", "Not=A?Brand";v="99"',
+        'sec-ch-ua-mobile': '?1',
+        'sec-ch-ua-platform': '"Android"',
+        'sec-fetch-dest': 'empty',
+        'sec-fetch-mode': 'cors',
+        'sec-fetch-site': 'cross-site',
+        'user-agent': 'Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Mobile Safari/537.36',
+    }
+
+    response = requests.get(f'https://youradio.ma/appservices/api/playinfo/{channels[channel]}', headers=headers)
+    json_dict = response.json()
+    PlayingSong = json_dict["PlayingSong"]
+    return PlayingSong
+
+
 logger = logging.getLogger('discord')
 logging.basicConfig(filename="index.log")
 
@@ -17,7 +45,13 @@ def render(inst_message,to_render):
 
 # Example usage:
 def handle_response(inst_message) -> str:
-                
+    if str(inst_message.content).find("whatsplaying90s")>-1:
+        whatsplaying = get_playingsong("90s")
+        return f"""{whatsplaying['Title']} - {whatsplaying['Artist']} """
+    if str(inst_message.content).find("whatsplaying")>-1:
+        whatsplaying = get_playingsong()
+        return f"""{whatsplaying['Title']} - {whatsplaying['Artist']} """
+    
     # Hidden mysteryes
     if random.randint(0,100)==42:
         logger.warning(f"Sbit {inst_message.author}")
@@ -56,6 +90,6 @@ def handle_response(inst_message) -> str:
     
     # User specific
     if str(inst_message.author) in bot_config.moulays:
-        if random.randint(0,10)==1:
-            logger.warning(f"ciphermoon_ hdr")
+        if random.randint(0,100)==1:
+            logger.warning(f"chi moulays hdr")
             return f"Ayih kayna, I7tiramati a moulay {inst_message.author.mention}"
