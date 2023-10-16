@@ -1,2 +1,15 @@
-TOKEN = "XXXXXXXXXXXXXXXXXXXX.XXXXXXXXX.XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-trigger_char = "/"
+import yaml
+
+def yaml_to_dict(yaml_file):
+    with open(yaml_file, 'r',encoding="utf-8") as file:
+        yaml_data = yaml.safe_load(file)
+    return yaml_data
+
+config = yaml_to_dict("config.yml")
+
+TOKEN = config['TOKEN']
+trigger_char = config['trigger_char']
+responses_yml = config['responses_yml']
+admins = config['admins']
+
+moulays = config['moulays']
